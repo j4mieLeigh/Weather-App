@@ -9,12 +9,60 @@
     <title>Weather App 🌤️</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header>
+      <form>
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          required
+        />
+        <input
+          type="submit"
+          value="Search"
+        />
+        <div class="current-date">Fri 27 Oct 2023 10:45</div>
+      </form>
+    </header>
+    <main>
+      <h1>City</h1>
+      <div class="current-weather">
+        <p>
+          <span id="current-weather-emoji">🌧️</span
+          ><span id="current-temperature">13°</span>
+        </p>
+      </div>
+      <div class="current-conditions">
+        <p>Scattered Clouds Humidity 24% Wind 4.8km/h</p>
+      </div>
+      <div class="forecast-weather">
+        <ul>
+          <li>Day One</li>
+          <li>Day Two</li>
+          <li>Day Three</li>
+          <li>Day Four</li>
+          <li>Day Five</li>
+        </ul>
+      </div>
+    </main>
     <footer>
-      Coded 👩‍💻 by <a href="https://github.com/j4mieLeigh">Jamie Leigh</a> |
-      Available 👋 on
-      <a href="https://github.com/j4mieLeigh/Weather-App">Github</a> | Hosted 🥳
-      by <a href="https://sparkly-mooncake-836d28.netlify.app/">Netlify</a>
+      Coded 👩‍💻 by
+      <a
+        href="https://github.com/j4mieLeigh"
+        target="_blank"
+        >Jamie Leigh</a
+      >
+      | Open-sourced 👋 on
+      <a
+        href="https://github.com/j4mieLeigh/Weather-App"
+        target="_blank"
+        >Github</a
+      >
+      | Hosted 🥳 by
+      <a
+        href="https://sparkly-mooncake-836d28.netlify.app/"
+        target="_blank"
+        >Netlify</a
+      >
     </footer>
   </body>
 </html>
