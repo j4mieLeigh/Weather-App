@@ -84,6 +84,7 @@ a {
 .current-weather {
   text-align: center;
 }
+
 #current-weather-emoji {
   font-size: 48px;
 }
@@ -105,7 +106,7 @@ a {
   font-family: arial;
   font-size: 16px;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .current-condition {
