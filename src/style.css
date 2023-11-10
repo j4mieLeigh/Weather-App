@@ -7,6 +7,11 @@ form {
   justify-content: center;
 }
 
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
 h1 {
   color: #ff6584;
   font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +30,8 @@ li {
 }
 
 footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
   color: rgba(39, 33, 66, 0.58);
   font-family: "Courier New", Courier, monospace;
   font-size: 13px;
@@ -49,11 +56,11 @@ a {
   background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.7);
   font-size: 16px;
   padding: 15px;
   display: block;
-  width: 65%;
+  width: 75%;
 }
 
 .search-button {
@@ -74,18 +81,41 @@ a {
   padding: 0;
 }
 
+.current-weather {
+  text-align: center;
+}
 #current-weather-emoji {
   font-size: 48px;
 }
 
 #current-temperature {
   font-family: arial;
-  font-size: 70px;
+  font-size: 100px;
   font-weight: bold;
 }
 
-.current-conditions {
+#temperature-unit {
+  font-family: arial;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.current-details {
+  display: flex;
   font-family: arial;
   font-size: 16px;
+  justify-content: space-around;
   padding: 10px 0;
+}
+
+.current-condition {
+  padding: 40px;
+}
+
+.current-humidity {
+  padding: 40px;
+}
+
+.current-wind {
+  padding: 40px;
 }
