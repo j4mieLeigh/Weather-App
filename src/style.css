@@ -3,8 +3,10 @@ body {
 }
 
 form {
+  border-radius: 6px;
   display: flex;
   justify-content: center;
+  padding: 20px 15px;
 }
 
 header {
@@ -15,7 +17,9 @@ header {
 h1 {
   color: #ff6584;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 44px;
+  font-size: 48px;
+  margin-left: -2px;
+  margin-top: -15px;
 }
 
 ul {
@@ -32,18 +36,21 @@ li {
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
-  color: rgba(39, 33, 66, 0.58);
+  color: rgba(39, 33, 66, 0.6);
   font-family: "Courier New", Courier, monospace;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
 }
 
 a {
-  color: #885df1;
+  color: #ff6584;
 }
 
-.container {
-  background: white;
+.image-container {
+  background-image: url("media/window-blue.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   display: block;
@@ -52,11 +59,19 @@ a {
   padding: 50px 30px;
 }
 
+.text-container {
+  background-color: rgba(255, 255, 255, 0.361);
+  background-position: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 98%;
+  padding: 30px;
+}
 .search-input {
-  background-color: #f9f7fe;
+  background-color: #fef7fa;
   border: none;
   border-radius: 6px;
-  color: rgba(39, 33, 66, 0.7);
+  color: rgba(39, 33, 66, 0.8);
   font-size: 16px;
   padding: 15px;
   display: block;
@@ -64,7 +79,7 @@ a {
 }
 
 .search-button {
-  background-color: #885df1;
+  background-color: #ff6584;
   border: none;
   border-radius: 6px;
   color: white;
@@ -77,46 +92,58 @@ a {
 
 .current-date {
   font-family: arial;
-  font-size: 16px;
+  font-size: 20px;
   padding: 0;
 }
 
-.current-weather {
+.current-city-and-weather {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 
-#current-weather-emoji {
-  font-size: 48px;
+.current-weather {
+  display: flex;
+  justify-content: space-around;
 }
 
-#current-temperature {
+.current-weather-emoji {
+  font-size: 44px;
+  margin-left: 120px;
+  margin-top: -5px;
+}
+
+.current-temperature {
   font-family: arial;
   font-size: 100px;
   font-weight: bold;
+  margin-top: -40px;
 }
 
-#temperature-unit {
+.temperature-unit {
   font-family: arial;
   font-size: 32px;
   font-weight: bold;
+  margin-top: -25px;
 }
 
 .current-details {
-  display: flex;
   font-family: arial;
   font-size: 16px;
-  justify-content: space-around;
   padding: 20px 0;
 }
 
 .current-condition {
-  padding: 40px;
+  font-family: arial;
+  font-size: 16px;
 }
 
 .current-humidity {
-  padding: 40px;
+  font-weight: bold;
+  color: #ff6584;
 }
 
 .current-wind {
-  padding: 40px;
+  font-weight: bold;
+  color: #ff6584;
 }
