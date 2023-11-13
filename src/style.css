@@ -68,7 +68,7 @@ a {
   padding: 30px;
 }
 .search-input {
-  background-color: #fef7fa;
+  background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
   color: rgba(39, 33, 66, 0.8);
@@ -110,22 +110,24 @@ a {
 .current-weather-emoji {
   width: 88px;
   height: 88px;
-  margin-top: -25px;
-  margin-right: -10px;
+  margin-left: 10px;
+  margin-top: -5px;
 }
 
 .current-temperature {
   font-family: arial;
-  font-size: 100px;
+  font-size: 94px;
   font-weight: bold;
-  margin-top: -40px;
+  margin-left: 5px;
+  margin-top: -20px;
 }
 
 .temperature-unit {
   font-family: arial;
   font-size: 32px;
   font-weight: bold;
-  margin-top: -25px;
+  margin-left: 5px;
+  margin-top: -5px;
 }
 
 .current-details {
