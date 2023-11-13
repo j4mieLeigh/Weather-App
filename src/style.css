@@ -108,9 +108,10 @@ a {
 }
 
 .current-weather-emoji {
-  font-size: 44px;
-  margin-left: 120px;
-  margin-top: -5px;
+  width: 88px;
+  height: 88px;
+  margin-top: -25px;
+  margin-right: -10px;
 }
 
 .current-temperature {

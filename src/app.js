@@ -18,6 +18,10 @@ function updateWeather(response) {
   let currentDateElement = document.querySelector("#current-date");
   let date = new Date(response.data.time * 1000);
   currentDateElement.innerHTML = formatDate(date);
+
+  let currentWeatherEmoji = document.querySelector("#current-weather-emoji");
+
+  currentWeatherEmoji.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-weather-emoji" id="current-weather-emoji" />`;
 }
 
 function formatDate(date) {
