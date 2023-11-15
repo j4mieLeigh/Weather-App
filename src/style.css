@@ -6,12 +6,12 @@ form {
   border-radius: 6px;
   display: flex;
   justify-content: center;
-  padding: 20px 15px;
+  padding: 15px 15px;
 }
 
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding: 0 0 30px 0;
+  padding: 0 0 20px 0;
 }
 
 h1 {
@@ -56,22 +56,24 @@ a {
   display: block;
   margin: 30px auto;
   max-width: 600px;
-  padding: 50px 30px;
+  padding: 40px 40px;
 }
 
 .text-container {
-  background-color: rgba(255, 255, 255, 0.361);
+  background-color: rgba(255, 255, 255, 0.5);
   background-position: center;
   border-radius: 10px;
   margin: 0 auto;
   max-width: 98%;
   padding: 30px;
 }
+
 .search-input {
-  background-color: #f9f7fe;
+  background-color: #f9f7fee2;
   border: none;
   border-radius: 6px;
-  color: rgba(39, 33, 66, 0.8);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  color: rgba(39, 33, 66, 0.9);
   font-size: 16px;
   padding: 15px;
   display: block;
@@ -149,4 +151,31 @@ a {
 .current-wind {
   font-weight: bold;
   color: #ff6584;
+}
+
+.weather-forecast {
+  display: flex;
+  font-family: arial;
+  justify-content: space-around;
+}
+
+.weather-forecast-date {
+  color: black;
+  display: block;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.weather-forecast-icon {
+  display: block;
+}
+
+.weather-forecast-temperatures {
+  color: #ff6584;
+  display: block;
+  font-size: 13px;
+}
+
+.min-temperature {
+  opacity: 0.7;
 }
