@@ -6,31 +6,22 @@ form {
   border-radius: 6px;
   display: flex;
   justify-content: center;
-  padding: 15px 15px;
+  padding: 30px 15px;
 }
 
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding: 0 0 20px 0;
 }
 
 h1 {
   color: #ff6584;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
-  margin-left: -2px;
-  margin-top: -15px;
+  margin: 0 0 0 -2px;
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-  padding: 18px;
-}
-
-li {
-  font-family: arial;
-  list-style: none;
+p {
+  margin: 24px 0;
 }
 
 footer {
@@ -56,7 +47,7 @@ a {
   display: block;
   margin: 30px auto;
   max-width: 600px;
-  padding: 40px 40px;
+  padding: 35px 35px;
 }
 
 .text-container {
@@ -95,7 +86,7 @@ a {
 .current-date {
   font-family: arial;
   font-size: 20px;
-  padding: 0;
+  padding: 30px 0 0 0;
 }
 
 .current-city-and-weather {
@@ -135,7 +126,6 @@ a {
 .current-details {
   font-family: arial;
   font-size: 16px;
-  padding: 20px 0;
 }
 
 .current-condition {
@@ -154,10 +144,13 @@ a {
 }
 
 .weather-forecast {
+  background-color: rgba(255, 255, 255, 0.845);
+  border-radius: 10px;
   display: flex;
   font-family: arial;
   justify-content: space-around;
   margin: 30px 0;
+  padding: 15px;
 }
 
 .weather-forecast-date {
